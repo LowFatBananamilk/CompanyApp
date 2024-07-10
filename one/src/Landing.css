@@ -1,0 +1,36 @@
+.custom-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.custom-navbar:hover {
+    background-color: white;
+}
+
+.custom-navbar .nav-link, .custom-navbar .nav-item .dropdown-toggle {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;  /* Added transition for smooth color change */
+}
+
+.custom-navbar .nav-link:hover, .custom-navbar .nav-item .dropdown-toggle:hover {
+    color: #1dc6c0;  /* Change color to orange on hover */
+}
+
+.custom-navbar .dropdown-menu {
+    background-color: white;
+}
+
+.custom-navbar .dropdown-item {
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: #ff6a00; /* Bluegreen color */
+    color: white;
+}
+
+.custom-navbar .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
