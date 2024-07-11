@@ -1,0 +1,98 @@
+.custom-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.custom-navbar:hover {
+    background-color: white;
+}
+
+.custom-navbar .nav-link, .custom-navbar .nav-item .dropdown-toggle {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;  /* Added transition for smooth color change */
+}
+
+.custom-navbar .nav-link:hover, .custom-navbar .nav-item .dropdown-toggle:hover {
+    color: #1dc6c0;  /* Change color to orange on hover */
+}
+
+.custom-navbar .dropdown-menu {
+    background-color: white;
+}
+
+.custom-navbar .dropdown-item {
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: #ff6a00; /* Bluegreen color */
+    color: white;
+}
+
+.custom-navbar .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+
+h1.header {
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+div.explanation{
+    border-top-width:2cm;
+    margin:10px;
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color:#0c827e;
+    border-top-left-radius:20%;
+    border-top-right-radius:20%;
+    text-align:center;
+}
+
+h3.det{
+    font-weight:200;
+}
+
+#imp{
+    font-style: bold;
+    color: #037672;
+}
+
+div.ESGicons{
+    border-width: 0.1cm;
+    border-color:#a2a2a2;
+    margin:10px;
+    padding:15px;
+    border-style:double;
+    text-align:center;
+    background-color: aliceblue;
+    width:auto;
+    height:auto;
+}
+
+div.Card{
+    text-align:center;
+    display: inline-flex;
+  /* align-items items in column */
+    flex-direction: column;
+  /* center items horizontally */
+    align-items: center;
+  /* center items vertically */
+    justify-content: center;
+    margin:5px;
+    padding:5px;
+    width:10cm;
+}
+
+#listleft{
+    text-align:left;
+}
+
+img{
+    width:150px;
+    padding:10px;
+}
