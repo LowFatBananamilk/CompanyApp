@@ -35,6 +35,13 @@
     border-color: rgba(0,0,0,.1);
 }
 
+div.main{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+
 h1.header {
     margin: auto;
     text-align: center;
@@ -95,4 +102,26 @@ div.Card{
 img{
     width:150px;
     padding:10px;
+}
+
+#boldgreen{font-weight:bold;
+    color: rgb(0, 128, 41);
+}
+
+#bold{font-weight:bold;}
+#light{font-weight: light;}
+
+h1.headers{
+    text-align:left;
+    margin-left:10px;
+    padding:15px;
+}
+
+.wbox{
+    background-color: rgb(233, 233, 233);
+    width:auto;
+    height:auto;
+    text-align: left;
+    padding:30px;
+    margin:10px;
 }
