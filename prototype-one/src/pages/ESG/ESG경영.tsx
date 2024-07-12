@@ -8,8 +8,12 @@ import societyicon from '../../societyicon.svg';
 function ESG경영() {
   return (
     <div>
+
       <hr></hr>
       <br></br>
+      
+      
+
       <h1 className="header">ESG 경영</h1>
       <br></br>
       <div className="explanation">
