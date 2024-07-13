@@ -1,16 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ESG경영.css'; 
-import leaficon from '../../leaf icon.svg';
-import pplicon from '../../pplicon.svg';
-import societyicon from '../../societyicon.svg';
+import leaficon from './leaf icon.svg';
+import pplicon from './pplicon.svg';
+import societyicon from './societyicon.svg';
 
-function ESG경영() {
+function ESG() {
   return (
     <div>
       <hr></hr>
       <br></br>
-
       <h1 className="header">ESG 경영</h1>
       <br></br>
       <div className="explanation">
@@ -65,6 +64,6 @@ function ESG경영() {
     </div>
 
       );
-}
+    }
+export default ESG;
 
-export default ESG경영;
