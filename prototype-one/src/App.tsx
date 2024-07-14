@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from './components'
 import { Main } from './pages'
 import { ESG경영, ESG평가, 사회공헌, 정도경영, 지배구조, 탄소중립, 품질경영, 환경안전보건경영 } from './pages/ESG'
@@ -14,7 +14,7 @@ import { Vison, 경영목표, 경영방침, 매출현황, 연혁, 조직도, 회
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navigation />
       
       <Routes>
@@ -62,7 +62,7 @@ function App() {
         <Route path="/인재채용/hrsystem" element={<HRsystem />}/>
         <Route path="/인재채용/careerInfo" element={<CareerInfo />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
