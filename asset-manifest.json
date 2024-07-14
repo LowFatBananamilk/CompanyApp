@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CompanyApp/static/css/main.f604ff75.css",
-    "main.js": "/CompanyApp/static/js/main.63d2c835.js",
-    "static/js/453.bc9f0c02.chunk.js": "/CompanyApp/static/js/453.bc9f0c02.chunk.js",
+    "main.css": "/CompanyApp/static/css/main.a14a9358.css",
+    "main.js": "/CompanyApp/static/js/main.baece378.js",
+    "static/js/453.4ad65394.chunk.js": "/CompanyApp/static/js/453.4ad65394.chunk.js",
     "index.html": "/CompanyApp/index.html",
-    "main.f604ff75.css.map": "/CompanyApp/static/css/main.f604ff75.css.map",
-    "main.63d2c835.js.map": "/CompanyApp/static/js/main.63d2c835.js.map",
-    "453.bc9f0c02.chunk.js.map": "/CompanyApp/static/js/453.bc9f0c02.chunk.js.map"
+    "main.a14a9358.css.map": "/CompanyApp/static/css/main.a14a9358.css.map",
+    "main.baece378.js.map": "/CompanyApp/static/js/main.baece378.js.map",
+    "453.4ad65394.chunk.js.map": "/CompanyApp/static/js/453.4ad65394.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f604ff75.css",
-    "static/js/main.63d2c835.js"
+    "static/css/main.a14a9358.css",
+    "static/js/main.baece378.js"
   ]
 }
