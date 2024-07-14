@@ -11,6 +11,17 @@ on:
     types: [ closed ]
 
 jobs:
+  git:
+    runs-on: ubuntu-latest
+    steps:
+      - name: set git config
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git config -l
+
   build:
 
     runs-on: ubuntu-latest
