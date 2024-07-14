@@ -14,6 +14,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'prototype-one'
 
     strategy:
       matrix:
@@ -27,6 +30,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd prototype-one
+        cache-dependency-path: 'prototype-one/package-lock.json'
     - run: npm ci
     - run: npm run deploy
