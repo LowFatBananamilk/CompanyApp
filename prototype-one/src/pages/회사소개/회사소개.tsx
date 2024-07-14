@@ -7,10 +7,10 @@ function 회사소개() {
       <hr></hr>
       <br></br>
       <h1 className='header'>회사개요</h1>
+      <br></br>
       <div className='explanation'>
         <br></br>
-        <br></br>
-        <div className="Intro">
+        <div>
         <br></br>
           <table className="table1">
             <tr>
@@ -44,7 +44,7 @@ function 회사소개() {
         </div>
       
       <div>
-
+      
       </div>
 
       <div>
