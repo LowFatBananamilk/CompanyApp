@@ -35,13 +35,10 @@ h3.det{
 div.ESGicons{
     border-width: 0.1cm;
     border-color:#a2a2a2;
-    margin:20px;
-    padding:15px;
     border-style:double;
     text-align:center;
     background-color: aliceblue;
-    width:auto;
-    height:auto;
+    padding-bottom: 30px;
 }
 
 div.Card{
@@ -53,24 +50,22 @@ div.Card{
     align-items: center;
   /* center items vertically */
     justify-content: center;
-    margin:30px;
-    padding:15px;
     width:10cm;
 }
 
 #listleft{
     text-align:left;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 img{
-    width:150px;
-    padding:10px;
+    width:100px;
 }
 
 #boldgreen{font-weight:bold;
     color: rgb(0, 128, 41);
-    margin: 0px;
-    padding: 0px;
+    padding-top: 30px;
 }
 
 #bold{font-weight:bold;}
@@ -84,8 +79,8 @@ h1.headers{
 
 .wbox{
     background-color: rgb(233, 233, 233);
-    width:300px;
-    size:10;
+    width:500px;
+    height: 400px;
     padding:30px;
     margin:10px;
 }

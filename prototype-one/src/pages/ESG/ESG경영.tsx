@@ -28,26 +28,26 @@ function ESG경영() {
           
           <h4 id="boldgreen">친환경 중심의 경영 혁신</h4>
           <img src={leaficon} className="App-logo" alt="leaf"/>
-          <ul>
-            <li id='listleft'>인권 및 다양성 존중</li>
-            <li id='listleft'>안전 및 보건</li>
+          <ul id='listleft'>
+            <li>인권 및 다양성 존중</li>
+            <li>안전 및 보건</li>
           </ul>
         </div>
         <div className='Card'>
           <h4 id="boldgreen">사회를 위한 책임 경영 내재화</h4>
           <img src={societyicon} className="App-logo" alt="leaf"/>
-          <ul>
-            <li id='listleft'>인권 및 다양성 존중</li>
-            <li id='listleft'>안전 및 보건</li>
+          <ul id='listleft'>
+            <li>인권 및 다양성 존중</li>
+            <li>안전 및 보건</li>
           </ul>
         </div>
         <div className='Card'>
           <h4 id="boldgreen">투명성과 효율성 제고</h4>
           <img src={pplicon} className="App-logo" alt="leaf"/>
-          <ul>
-            <li id='listleft'>감사의 독립성과 역할</li>
-            <li id='listleft'>지속가능성</li>
-            <li id='listleft'>전사 리스크 관리</li>
+          <ul id='listleft'>
+            <li>감사의 독립성과 역할</li>
+            <li>지속가능성</li>
+            <li>전사 리스크 관리</li>
           </ul>
         </div>
       </div>  
