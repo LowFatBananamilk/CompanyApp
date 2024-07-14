@@ -2,6 +2,8 @@ import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
+
+import './components.css'
  
 const Navigation = () => {
     return (
