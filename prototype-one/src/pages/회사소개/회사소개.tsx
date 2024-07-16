@@ -9,15 +9,20 @@ import car from '../../car.svg';
 function 회사소개() {
   return (
   <div>
+    <br></br>
+    <br></br>
+    <h1 className="bold logocolor2 center big">회사소개</h1>
+    <div className='start'>
+    </div>
     <div className="photodiv bg5">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg/1200px-M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg" className='mainimg'></img>
     </div>
 
     <div className="intro">
-      <h1 className="bold logocolor3">HANJIN PL</h1>
+      <h2 className="bold logocolor3">HANJIN PL</h2>
       <hr></hr>
       <h4>한진PL은 빛입니다.</h4>
-      <h6>뭐시기 뭐시기 했습니다.</h6>
+      <h6>설명</h6>
       <h6 className='bold'>중요!!</h6>
       <h6 className='logocolor3'>파랑!!</h6>
       <hr></hr>
@@ -25,7 +30,7 @@ function 회사소개() {
     
 
     <div className="CEO bg1">
-      <h1 className='bold logocolor3'>CEO 인사말</h1>
+      <h2 className='bold logocolor3'>CEO 인사말</h2>
       <hr></hr>
       <h4>한진PL은 빛입니다.</h4>
       <h6>뭐시기 뭐시기 했습니다.</h6>
@@ -34,7 +39,7 @@ function 회사소개() {
     </div>
 
     <div className="info">
-      <h1 className="bold logocolor3">기업정보</h1>
+      <h2 className="bold logocolor3">기업정보</h2>
       <table className="table1">
         <tr className='tr1'>
           <th className='th1'>설립일</th>
@@ -99,7 +104,7 @@ function 회사소개() {
     </div>
 
     <div className='others'>
-    <h1 className="bold logocolor3">주관계사</h1>
+    <h2 className="bold logocolor3">주관계사</h2>
     <hr></hr>
     <img src={car} className='companies'></img>
     <img src={car} className='companies'></img>

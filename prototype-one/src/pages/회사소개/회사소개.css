@@ -1,5 +1,17 @@
 /*div blocks*/
 
+.start{
+    border-top-width:2cm;
+    margin:1%;
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color:#12a89d;
+    border-top-left-radius:60%;
+    border-top-right-radius:60%;
+}
+
+
 .photodiv{
     float: left;
     width: 40%;
@@ -97,7 +109,7 @@
 .table2{
     float: left;
     border: 2px solid #75827b;
-    border: 2px solid black;
+    border: 4px double black;
     text-align: left;
     height: 250px;
     width: 100%;
@@ -126,7 +138,7 @@
 .others{
     float: right;
     width: 45%;
-    height: 280px;
+    height: 300px;
     margin: 5%;
     padding: 2%;
     margin-left: 1%;

@@ -3,6 +3,7 @@
 
 h1, h2, h3, h4, h5, h6{
     font-family: sans-serif;
+    color: black;
 }
 
 .bold{
@@ -13,6 +14,21 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 300;
 }
 
+.big{
+    font-size: 50px;
+}
+
+.center{
+    text-align:center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align:right;
+}
 
 /*Main Gradient Color*/
 
