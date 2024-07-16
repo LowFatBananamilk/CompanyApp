@@ -9,7 +9,7 @@ function 회사소개() {
   return (
   <div>
     <div className="photodiv bg5">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg/1200px-M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg"></img>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg/1200px-M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg" className='mainimg'></img>
     </div>
 
     <div className="intro">
@@ -37,18 +37,26 @@ function 회사소개() {
         </tr>
         <tr>
           <td>
-            <img src={company}></img>
-            <h5>년월일</h5>
+            <img src={company} className='icon'></img>
+          </td>
+          <td>
+            <img src={money} className='icon'></img>
+          </td>
+          <td>
+            <img src={worker} className='icon'></img>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5>부제목</h5>
             <h6>부가설명</h6>
           </td>
           <td>
-            <img src={money}></img>
-            <h5>년월일</h5>
+            <h5>부제목</h5>
             <h6>부가설명</h6>
           </td>
           <td>
-            <img src={worker}></img>
-            <h5>년월일</h5>
+            <h5>부제목</h5>
             <h6>부가설명</h6>
           </td>
         </tr>
