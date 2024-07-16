@@ -1,0 +1,26 @@
+.start{
+    border-top-width:2cm;
+    margin:1%;
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color:#12a89d;
+    border-top-left-radius:60%;
+    border-top-right-radius:60%;
+}
+
+
+.mainone{
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+    background-color: #54a1b899;
+}
+
+.jojik{
+    width: 80%;
+    margin: 5%;
+}
