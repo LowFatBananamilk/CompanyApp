@@ -1,53 +1,53 @@
+/*div blocks*/
 
-div.explanation{
-    border-top-width:2cm;
-    margin:10px;
-    padding: 15px;
-    border-top-style: solid;
-    border-top-width: 4px;
-    border-top-color:#0c827e;
-    border-top-left-radius:15%;
-    border-top-right-radius:15%;
-    text-align:center;
-}
-
-
-
-h1.header {
-    margin: auto;
+.photodiv{
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin: 2%;
+    margin-right: 0%;
+    margin-top:4%;
+    padding: 2%;
     text-align: center;
-    font-weight: 500;
 }
-
-table.table1{
-    width: 96%;
-    height: 100%;
-    padding:10px;
-    margin:15px;
-    border-left: 5px double rgb(248, 248, 248);
-    border-top: 5px double rgb(248, 248, 248);
-    background-color: aliceblue;
-    background-image: linear-gradient(to bottom right, aliceblue, rgb(105, 190, 178));
-    text-align:left;
+img{
+    width:100%;
+    display: block;
     
+
 }
 
-tr, td, th{
-    border: double rgb(244, 244, 244);
-    border-width: 7px;
-    padding: 10px;
+.intro{
+    float: right;
+    width: 45%;
+    margin: 2%;
+    margin-left: 1%;
+    margin-top:4%;
+    padding: 2%;
+    text-align: left;
+    height: 500px;
 }
 
-th{
-    background-color:linear-gradient(to bottom right, rgb(255, 255, 255), aliceblue)
+.info{
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin: 2%;
+    margin-right:0%;
+    margin-top: 4%;
+    padding: 2%;
+    text-align: center;
 }
 
-
-li.arrow{
-    list-style-type: square;
-}
-
-ul{
-    height: 5px;
+.CEO{
+    float: right;
+    width: 40%;
+    height: 500px;
+    margin: 2%;
+    margin-left: 1%;
+    margin-top: 4%;
+    padding: 2%;
+    padding: 2%;
     text-align: left;
 }
+
