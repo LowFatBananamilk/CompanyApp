@@ -29,7 +29,7 @@ function 회사소개() {
     </div>
     
 
-    <div className="CEO bg1">
+    <div className="CEO">
       <h2 className='bold logocolor3'>CEO 인사말</h2>
       <hr></hr>
       <h4>한진PL은 빛입니다.</h4>

@@ -14,7 +14,7 @@
 
 .photodiv{
     float: left;
-    width: 40%;
+    width: 43%;
     height: 500px;
     margin: 5%;
     margin-right: 0%;
@@ -42,7 +42,7 @@
 
 .info{
     float: left;
-    width: 40%;
+    width: 43%;
     height: 300px;
     margin: 5%;
     padding: 0%;
@@ -61,7 +61,7 @@
 }
 
 .icon{
-    width: 40%;
+    width: 50%;
     padding: 0px;
 }
 
@@ -96,7 +96,7 @@
 
 .info2{
     float: left;
-    width: 40%;
+    width: 43%;
     height: 300px;
     margin: 5%;
     padding: 0%;
@@ -108,8 +108,8 @@
 
 .table2{
     float: left;
-    border: 2px solid #75827b;
-    border: 4px double black;
+    border: 1px solid #b7b7b7;
+    border-top: 2px solid black;
     text-align: left;
     height: 250px;
     width: 100%;
@@ -117,16 +117,16 @@
 }
 
 .th2{
-    text-align: left;
+    text-align: center;
     padding-left:10px;
     width: 30%;
-    border: 1px solid #75827b;
-    background-color:#2445521d;
+    border: 1px solid #b7b7b7;
+    background-color:#e1e1e1;
 }
 
 .td2{
     text-align: left;
-    border: 1px solid #75827b;
+    border: 1px solid #b7b7b7;
 
     padding-left:10px;
 }
@@ -144,7 +144,7 @@
     margin-left: 1%;
     margin-top:0px;
     text-align: left;
-    background-color:#acd8d353;
+ 
 }
 
 .companies{
