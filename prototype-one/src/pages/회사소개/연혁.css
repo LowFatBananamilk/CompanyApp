@@ -9,19 +9,18 @@
     border-top-right-radius:60%;
 }
 
+.picturesection{
+    width: 80%;
+    margin: 5%;
+}
 
-.mainone{
+.yeonheok{
     width: 90%;
     height: 90%;
     margin: 5%;
     padding: 2%;
     text-align: center;
     align-content: center;
-    background-color: #54a1b81a;
-    border: solid #54a1b81a;
-}
-
-.jojik{
-    width: 80%;
-    margin: 5%;
+    background-color: #54b8951e;
+    border: solid #54b8951e;
 }
