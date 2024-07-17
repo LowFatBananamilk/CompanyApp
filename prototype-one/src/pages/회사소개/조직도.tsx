@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Font&Color.css'
+import '../thumbnail&details.css'
 import './조직도.css'
 import 조직 from '../../조직도.svg';
 

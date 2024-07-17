@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Font&Color.css'
+import '../thumbnail&details.css'
 import './회사소개.css'; 
 import company from '../../company.svg';
 import money from '../../money.svg';
@@ -9,11 +10,17 @@ import car from '../../car.svg';
 function 회사소개() {
   return (
   <div>
+    <div className='thumbnail1'>
+      <h1 className='thumbnailtext'>회사정보</h1>
+    </div>
+    <br></br>
+    <br></br>
     <br></br>
     <br></br>
     <h1 className="bold logocolor2 center big">회사소개</h1>
     <div className='start'>
     </div>
+    
     <div className="photodiv bg5">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg/1200px-M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg" className='mainimg'></img>
     </div>

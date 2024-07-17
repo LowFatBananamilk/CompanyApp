@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Font&Color.css'
+import '../thumbnail&details.css'
 import './연혁.css'
 import 연혁사진 from '../../연혁사진.png';
 
