@@ -7,11 +7,11 @@ import 연혁사진 from '../../연혁사진.png';
 function 연혁() {
   return (
   <div>
-    <br></br>
-    <br></br>
-    <h1 className="bold logocolor2 center big">연혁</h1>
-    <div className='start'></div>
-    <div className='picturesection'>
+    <div className='thumbnail1'>
+      <h1 className='thumbnailtext'>연혁</h1>
+    </div>
+    <h1 className="bold logocolor2 center big header">연혁</h1>
+    <div className='start'>
     </div>
     <div>
       <img src={연혁사진} className='yeonheok'></img>

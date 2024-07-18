@@ -1,0 +1,114 @@
+.topic1{
+    text-align:center;
+    background-color:#0a4945;
+    width:30%;
+    float:left;
+    box-shadow: 10px 10px rgba(2, 18, 18, 0.825);
+    margin-top: 4%;
+    margin-left: 12%;
+    align-content: center;
+    height: 60px;
+    position: relative;
+}
+
+.topic2{
+    text-align:center;
+    background-color:#0d262a;
+    width:30%;
+    float:right;
+    box-shadow: 10px 10px rgba(2, 18, 18, 0.825);
+    margin-top: 4%;
+    margin-right: 12%;
+    align-content: center;
+    height: 60px;
+    position: relative;
+}
+
+.box{
+    float: center;
+    width: 86%;
+    height: 700px;
+    margin: 7%;
+    margin-top:8%;
+    text-align: center;
+    align-content: center;
+    background-color: #e7e7e7;
+    z-index: -2;
+    position: absolute;
+}
+
+.logo{
+    width: 86%;
+}
+
+.box1{
+    float: left;
+    width: 43.5%;
+    height: 730px;
+    margin-right: 0.2%;
+    margin-left: 5.5%;
+    margin-top: -40px;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+    background-color: #12a89ee1;
+    z-index:-1;
+}
+
+.box2{
+    float: right;
+    width: 43.5%;
+    margin-left: 0.2%;
+    margin-right: 5.5%;
+    margin-top: -40px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    height: 730px;
+    background-color: #1f5b63e1;
+    z-index:-1;
+}
+
+.miniboxes1{
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.miniboxes2{
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.p1{
+    background-color: #e7e7e7;
+    border-radius: 25px;
+    border: 2px solid #267063;
+    padding-left: 10px;
+    width: 95%;
+    margin: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 120px;
+    align-content: center;
+}
+
+.p2{
+    background-color: #e7e7e7;
+    border-radius: 25px;
+    border: 2px solid #06332b;
+    padding-left: 10px;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 120px;
+    align-content: center;
+}
+
+img{width: 20%;
+    padding-right: 5%;
+}

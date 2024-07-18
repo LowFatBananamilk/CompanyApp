@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, h6{
     text-align:right;
 }
 
+.header{
+    padding-top: 8%;
+}
+
+.white{color:white;}
+
 /*Main Gradient Color*/
 
 .logocolor1{
