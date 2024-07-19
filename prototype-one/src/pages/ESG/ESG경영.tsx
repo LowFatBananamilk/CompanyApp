@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ESG경영.css'; 
-import leaficon from '../../leaf icon.svg';
+import leaf from '../../leaf.svg';
 import pplicon from '../../pplicon.svg';
 import societyicon from '../../societyicon.svg';
 
@@ -27,7 +27,7 @@ function ESG경영() {
         <div className='Card'>
           
           <h4 id="boldgreen">친환경 중심의 경영 혁신</h4>
-          <img src={leaficon} className="App-logo" alt="leaf"/>
+          <img src={leaf} className="App-logo" alt="leaf"/>
           <ul id='listleft'>
             <li>인권 및 다양성 존중</li>
             <li>안전 및 보건</li>
