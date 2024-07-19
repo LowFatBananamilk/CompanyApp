@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Font&Color.css'
-import '../thumbnail&details.css'
+import '../Font&Color.css';
+import '../thumbnail&details.css';
 import './회사소개.css'; 
 import company from '../../company.svg';
 import money from '../../money.svg';
@@ -13,7 +13,7 @@ function 회사소개() {
     <div className='thumbnail1'>
       <h1 className='thumbnailtext'>회사정보</h1>
     </div>
-    <h1 className="bold logocolor2 center big header">회사소개</h1>
+    <h1 className="header">회사소개</h1>
     <div className='start'>
     </div>
     

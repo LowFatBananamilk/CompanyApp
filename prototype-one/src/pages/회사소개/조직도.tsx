@@ -11,7 +11,7 @@ function 조직도() {
     <div className='thumbnail1'>
       <h1 className='thumbnailtext'>조직도</h1>
     </div>
-    <h1 className="bold logocolor2 center big header">조직도</h1>
+    <h1 className="header">조직도</h1>
     <div className='start'>
     </div>
     

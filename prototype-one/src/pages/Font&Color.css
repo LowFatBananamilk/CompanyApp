@@ -30,8 +30,12 @@ h1, h2, h3, h4, h5, h6{
     text-align:right;
 }
 
-.header{
-    padding-top: 8%;
+h1.header{
+    padding-top: 7%;
+    font-weight:700;
+    color:#1f5b63;
+    text-align: center;
+    font-size: 50px;
 }
 
 .white{color:white;}

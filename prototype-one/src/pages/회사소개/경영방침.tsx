@@ -15,7 +15,7 @@ function 경영방침() {
     <div className='thumbnail1'>
       <h1 className='thumbnailtext'>경영방침</h1>
     </div>
-    <h1 className="bold logocolor2 center big header">경영방침</h1>
+    <h1 className="header">경영방침</h1>
     <div className='start'></div>
 
     <img src={quality}className='titlelogo1'></img>
