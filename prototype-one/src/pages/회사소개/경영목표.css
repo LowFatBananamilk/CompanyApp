@@ -29,7 +29,6 @@
     padding: 2%;
     text-align: center;
     align-content: center;
-    background-color: #54a1b829;
 }
 
 .icons{
@@ -41,19 +40,19 @@
 }
 
 .detail1{
-    font-size: 55px;
+    font-size: 52px;
     font-weight: 600;
     color:#1e3d7d;
     text-align: left;
 }
 
-td{
+.tabled{
     padding-bottom: 5%;
     padding-top: 5%;
 }
 
-tr{
-    border-top: #ffffff 2px solid;
+.tabler{
+    border-top: #12a89d 2px solid;
 }
 
 
@@ -62,11 +61,11 @@ tr{
     font-size: 26px;
 }
 
-li{
+.list{
     padding: 3%;
     padding-left: 0%;
 }
 
-ul{
+.ulist{
     list-style-type: square;
 }
