@@ -1,0 +1,14 @@
+.picturesection{
+    width: 80%;
+    margin: 5%;
+}
+
+.status{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+    border: solid #cfcfcf;
+}
