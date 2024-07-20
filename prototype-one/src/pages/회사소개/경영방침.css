@@ -4,25 +4,32 @@
     width:25%;
     float:left;
     box-shadow: 10px 10px rgba(2, 18, 18, 0.825);
-    margin-top: 7%;
+    margin-top: 270px;
     margin-left: 15%;
     align-content: center;
     height: 70px;
-    position: relative;
+    position: absolute;
 }
 
 .titlelogo1{
-    width: 5%;
+    width: 8%;
     float: left;
     position: absolute;
     margin-left: 25%;
+    margin-top: 6%;
+    border: black 4px dotted;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .titlelogo2{
-    width: 6%;
+    width: 8%;
     float: right;
     position: absolute;
-    margin-left: 70%;
+    margin-left: 68.5%;
+    border: black 4px dotted;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .topic2{
@@ -31,30 +38,12 @@
     width:25%;
     float:right;
     box-shadow: 10px 10px rgba(2, 18, 18, 0.825);
-    margin-top: 7%;
+    margin-top: 10%;
     margin-right: 15%;
     align-content: center;
     height: 70px;
     position: relative;
 }
-
-.box{
-    float: center;
-    width: 86%;
-    height: 440px;
-    margin: 7%;
-    margin-top:13%;
-    text-align: center;
-    align-content: center;
-    z-index: -2;
-    position: absolute;
-    background-image:url(../../logo.jpeg);
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
-
 
 .box1{
     float: left;
@@ -62,11 +51,11 @@
     height: 510px;
     margin-right: 0.2%;
     margin-left: 5.5%;
-    margin-top: -40px;
+    margin-top: 300px;
     padding: 2%;
     text-align: center;
     align-content: center;
-    border: #12a89ee1 groove 10px;
+    border: #12a89e8f inset 10px;
     z-index:-1;
     margin-bottom: 10%;
     background-color: transparent;
@@ -82,10 +71,9 @@
     margin-top: -40px;
     align-content: center;
     height: 780px;
-    border: #1f5b63e1 groove 10px;
+    border: #1f5b63a0 inset 10px;
     z-index:-1;
     margin-bottom: 10%;
-    background-color: transparent;
 }
 
 .miniboxes1{
@@ -93,6 +81,7 @@
     text-align: center;
     align-content: center;
     font-weight: bold;
+    border-bottom: rgb(225, 225, 225) 2px solid;
 }
 
 .miniboxes2{
@@ -100,13 +89,14 @@
     text-align: center;
     align-content: center;
     font-weight: bold;
+    border-bottom: rgb(225, 225, 225) 2px solid;
 }
 
 .p1{
-    background-color: #ffffffec;
-    border-radius: 25px;
-    border: 3px solid #267063;
+    background-color: white;
+    text-align: left;
     padding-left: 10px;
+    color:black;
     width: 95%;
     margin: 5%;
     margin-bottom: 1%;
@@ -114,13 +104,14 @@
     height: 120px;
     align-content: center;
     padding: 5%;
+    border-top: rgb(225, 225, 225) 2px solid;
 }
 
 .p2{
-    background-color: #ffffffec;
-    border-radius: 25px;
-    border: 3px solid #0b5346;
-    padding-left: 10px;
+    background-color: white;
+    color:black;
+    text-align: left;
+    padding-left: 8px;
     width: 90%;
     margin: 5%;
     margin-bottom: 1%;
@@ -129,6 +120,7 @@
     align-content: center;
     padding: 8%;
     padding-top:10%;
+    border-top: rgb(225, 225, 225) 2px solid;
 }
 
 img{width: 70%;

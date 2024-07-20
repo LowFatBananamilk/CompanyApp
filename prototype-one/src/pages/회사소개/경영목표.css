@@ -1,22 +1,29 @@
 .goals{
     float:center;
     width: 90%;
-    height: auto;
+    height: 500px;
     margin: 5%;
     margin-right: 5%;
     margin-top:4%;
     padding: 2%;
     text-align: center;
     align-content: center;
-    background-color: rgb(246, 246, 246);
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/28/07/48/arrows-6973906_1280.jpg);
+    background-size: cover;
 }
 
 .goal{
-    width:180px;
+    width:150px;
+    filter: invert(1);
+    margin-bottom:20px;
+    margin-top:10%;
+    border-top: black dashed 4px;
+    padding-top: 1%;
 }
 
 .year{
-    font-size:180px;
+    font-size:100px;
+    color:white;
 }
 
 .goaldetails{
@@ -25,30 +32,29 @@
     height: auto;
     margin: 5%;
     margin-right: 5%;
-    margin-top:4%;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
     align-content: center;
 }
 
 .icons{
     width:40%;
-    padding: 5%;
+    padding: 7%;
     margin-left: -15%;
     background-color: rgba(255, 255, 255, 0.598);
     border-radius: 20%;
 }
 
 .detail1{
-    font-size: 52px;
+    font-size: 32px;
     font-weight: 600;
     color:#1e3d7d;
     text-align: left;
 }
 
 .tabled{
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 .tabler{
@@ -58,11 +64,11 @@
 
 .detail2{
     text-align: left;
-    font-size: 26px;
+    font-size: 19px;
 }
 
 .list{
-    padding: 3%;
+    padding: 2%;
     padding-left: 0%;
 }
 

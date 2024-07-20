@@ -17,6 +17,9 @@ function 경영방침() {
     </div>
     <h1 className="header">경영방침</h1>
     <div className='start'></div>
+    <br></br>
+    <br></br>
+    <br></br>
 
     <img src={quality}className='titlelogo1'></img>
     <img src={leaf} className='titlelogo2'></img>

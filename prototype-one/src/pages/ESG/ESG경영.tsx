@@ -53,13 +53,7 @@ function ESG경영() {
           </ul>
         </div>
       </div>  
-      
-      <br></br>
-      <h1 className="headers">지속가능경영보고서</h1>
-      <div className='wbox'>
-        <h4 id='bold'>Leading Sustainable Auto Parts</h4>
-        <h5 id='light'>한진PL은</h5>
-      </div>
+    
 
 
 
