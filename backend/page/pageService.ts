@@ -40,6 +40,20 @@ export class PageService {
         return rows[0];
     }
 
+    static async DeleteByID(ID: number) {
+        const [rows, _]: [Page[], FieldPacket[]] = await connection.promise().query(
+            `DELETE FROM page WHERE id = ?`, ID
+        );
+        return rows[0];
+    }
+
+    static async DeleteByLocation(location: string) {
+        const [rows, _]: [Page[], FieldPacket[]] = await connection.promise().query(
+            `DELETE FROM page WHERE location = ?`, location
+        );
+        return rows[0];
+    }
+
     static GenerateSETclause(page: Page) {
         const sets = [];
         if (page.title)
