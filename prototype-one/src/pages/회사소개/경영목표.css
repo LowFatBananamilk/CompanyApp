@@ -1,0 +1,72 @@
+.goals{
+    float:center;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    margin-right: 5%;
+    margin-top:4%;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(246, 246, 246);
+}
+
+.goal{
+    width:180px;
+}
+
+.year{
+    font-size:180px;
+}
+
+.goaldetails{
+    float:center;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    margin-right: 5%;
+    margin-top:4%;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+    background-color: #54a1b829;
+}
+
+.icons{
+    width:40%;
+    padding: 5%;
+    margin-left: -15%;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 20%;
+}
+
+.detail1{
+    font-size: 55px;
+    font-weight: 600;
+    color:#1e3d7d;
+    text-align: left;
+}
+
+td{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+tr{
+    border-top: #ffffff 2px solid;
+}
+
+
+.detail2{
+    text-align: left;
+    font-size: 26px;
+}
+
+li{
+    padding: 3%;
+    padding-left: 0%;
+}
+
+ul{
+    list-style-type: square;
+}
