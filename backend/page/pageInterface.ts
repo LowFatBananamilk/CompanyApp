@@ -1,4 +1,4 @@
-import { RowDataPacket } from "mysql2/promise";
+import { RowDataPacket } from 'mysql2/promise';
 
 export default interface Page extends RowDataPacket {
     id: number;
@@ -10,4 +10,4 @@ export default interface Page extends RowDataPacket {
     created_by: string;
     last_modified: string;
     last_modified_by: string;
-}
+};
