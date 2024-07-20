@@ -20,3 +20,16 @@ PageController.get('/', async (req, res) => {
         return res.sendStatus(404);
     return res.json(page);
 });
+
+PageController.patch('/', async (req, res) => {
+    let page: Page | null = null;
+    if (req.query.id)
+        page = await Service.UpdateByID(Number(req.query.id), req.body);
+    else if (req.query.location)
+        page = await Service.UpdateByLocation(String(req.query.location), req.body);
+
+    // TODO: Make this return something.
+    // if (page == null)
+    //     return res.sendStatus(404);
+    return res.json(page);
+});
