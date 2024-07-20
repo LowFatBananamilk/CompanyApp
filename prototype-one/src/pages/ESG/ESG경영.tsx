@@ -4,15 +4,17 @@ import './ESG경영.css';
 import leaf from '../../leaf.svg';
 import pplicon from '../../pplicon.svg';
 import societyicon from '../../societyicon.svg';
+import '../Font&Color.css';
+import '../thumbnail&details.css';
 
 function ESG경영() {
   return (
     <div>
-      <hr></hr>
-      <br></br>
-
-      <h1 className="header">ESG 경영</h1>
-      <br></br>
+      <div className='thumbnail1'>
+      <h1 className='thumbnailtext'>경영목표</h1>
+      </div>
+      <h1 className="header">경영목표</h1>
+      <div className='start'></div>
       <div className="explanation">
         <br></br>
         <h3 className='det'>급변하는 경영환경 속에서 존경받는 글로벌 기업으로서</h3>

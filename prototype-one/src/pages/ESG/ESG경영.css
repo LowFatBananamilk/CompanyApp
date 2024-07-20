@@ -4,7 +4,6 @@ div.main{
 }
 
 
-
 h1.header {
     margin: auto;
     text-align: center;
@@ -15,11 +14,6 @@ div.explanation{
     border-top-width:2cm;
     margin:10px;
     padding: 15px;
-    border-top-style: solid;
-    border-top-width: 4px;
-    border-top-color:#0c827e;
-    border-top-left-radius:15%;
-    border-top-right-radius:15%;
     text-align:center;
 }
 
@@ -33,12 +27,13 @@ h3.det{
 }
 
 div.ESGicons{
-    border-width: 0.1cm;
+    border-width: 5px;
     border-color:#a2a2a2;
     border-style:double;
     text-align:center;
-    background-color: aliceblue;
-    padding-bottom: 30px;
+    background-color: rgba(214, 241, 255, 0.282);
+    margin: 5%;
+    margin-top: 2%;
 }
 
 div.Card{
@@ -57,15 +52,16 @@ div.Card{
     text-align:left;
     padding-bottom: 30px;
     margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: circle;
 }
 
-img{
-    width:100px;
-}
 
 #boldgreen{font-weight:bold;
-    color: rgb(0, 128, 41);
+    color: #037672;
     padding-top: 30px;
+    font-size: 30px;
 }
 
 #bold{font-weight:bold;}
@@ -83,4 +79,8 @@ h1.headers{
     height: 400px;
     padding:30px;
     margin:10px;
+}
+
+.App-logo{
+    width: 150px;
 }
