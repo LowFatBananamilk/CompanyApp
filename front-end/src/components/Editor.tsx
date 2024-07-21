@@ -1,8 +1,16 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
+// TODO: remove preview
+import * as DOMPurify from "dompurify";
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import PageAPI from '../requests/pageAPI'
+
+import Button from 'react-bootstrap/Button';
 
 function Editor() {
+  const [value, setValue] = useState('');
+  const [isLoading, setLoading] = useState(false);
+
   const modules = useMemo(() => {
     return {
       toolbar: {
@@ -30,8 +38,44 @@ function Editor() {
     };
   }, []);
 
+  useEffect(() => {
+    if (isLoading) {
+      // TODO: Add forms for other infos
+      PageAPI.Create("test", "test", "test", value, "webApp").then(res => {
+        if (res.status === 200)
+          setLoading(false);
+        else
+          alert("저장 실패");
+      });
+    }
+  }, [isLoading, value]);
+  const handleClick = () => setLoading(true);
+
   return (
-    <ReactQuill theme="snow" modules={modules} />
+    <>
+      <ReactQuill
+        theme="snow" modules={modules}
+        value={value} onChange={setValue}
+      />
+
+    <Button
+      variant="primary"
+      disabled={isLoading}
+      onClick={!isLoading ? handleClick : () => {}}
+    >
+      {isLoading ? '처리중…' : '개시'}
+    </Button>
+
+      {/* TODO: remove preview */}
+      <div
+        dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(value),}}
+        style={{
+          marginTop: '30px',
+          overflow: 'hidden',
+          whiteSpace: 'pre-wrap',
+        }}
+      />
+    </>
   );
 }
 
