@@ -39,11 +39,8 @@ div.ESGicons{
 div.Card{
     text-align:center;
     display: inline-flex;
-  /* align-items items in column */
     flex-direction: column;
-  /* center items horizontally */
     align-items: center;
-  /* center items vertically */
     justify-content: center;
     width:10cm;
 }
@@ -52,7 +49,7 @@ div.Card{
     text-align:left;
     padding-bottom: 30px;
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     list-style-type: circle;
 }
