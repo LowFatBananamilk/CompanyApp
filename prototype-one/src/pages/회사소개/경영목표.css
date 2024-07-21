@@ -38,11 +38,13 @@
 }
 
 .icons{
-    width:40%;
+    width:30%;
     padding: 7%;
     margin-left: -15%;
-    background-color: rgba(255, 255, 255, 0.598);
+    background-color: rgb(246, 246, 246);
     border-radius: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .detail1{
@@ -58,7 +60,7 @@
 }
 
 .tabler{
-    border-top: #12a89d 2px solid;
+    border-top: #12a89d 1px solid;
 }
 
 
