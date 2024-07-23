@@ -22,7 +22,7 @@ function 회사소개() {
     </div>
 
     <div className="intro">
-      <h2 className="bold logocolor3">HANJIN PL</h2>
+      <h1 className="header3">HANJIN PL</h1>
       <hr></hr>
       <h4>한진PL은 빛입니다.</h4>
       <h6>설명</h6>

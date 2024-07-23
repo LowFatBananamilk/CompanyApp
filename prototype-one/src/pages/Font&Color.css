@@ -52,6 +52,11 @@ h1.header2{
     margin-bottom: 3%;
 }
 
+h1.header3{
+    font-weight: 600;
+    color:#1e3d7d;
+}
+
 .white{color:white;}
 
 /*Main Gradient Color*/
@@ -82,15 +87,15 @@ h1.header2{
 
 /*BG Color Pallete*/
 .bg1{
-    background-color:#edf6f9;
+    background-color:#edf7fa;
 }
 
 .bg2{
-    background-color:#acd8d3;
+    background-color:#fdfdfd;
 }
 
 .bg3{
-    background-color:#54a0b8;
+    background-color:#9f9f9f;
 }
 
 .bg4{
