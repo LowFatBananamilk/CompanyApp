@@ -30,4 +30,23 @@
     border-top-right-radius:60%;
 }
 
+/*footer horizontal bar design*/
+.footer{
+    width:100%;
+    text-align:left;
+    background-color:#244552;
+    margin-top:3%;
+    padding:1%;
+    height:200px;
+    margin-bottom:0%;
+    align-items: center;
+    align-content: center;
+}
 
+.logo{
+    height:70px;
+    width: auto;
+    float:left;
+    margin-right:5%;
+    margin-left:3%;
+}

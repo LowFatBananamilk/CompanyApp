@@ -1,0 +1,17 @@
+.companyimg{
+    width:100%;
+    height: 450px;
+}
+
+.CEO{
+    margin-top:3%;
+    margin-bottom:3%;
+    background-image:url('./sunbg.jpg');
+    height:200px;
+    background-size:cover;
+}
+
+.locicon{
+    width:33px;
+    float: left;
+}

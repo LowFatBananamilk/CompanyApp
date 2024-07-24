@@ -1,13 +1,111 @@
 /*main divs that contain all elements*/
 
 .main{
-    width: 90%;
-    margin: 5%;
+    width: 96%;
+    margin: 2%;
+    margin-top:3%;
+    margin-bottom:3%;
     padding: 2%;
     text-align: center;
     align-content: center;
 }
 
-.twobyone{
-    
+/*A&B 44:54*/
+.twobyoneA{
+    float: left;
+    width: 44%;
+    margin-right: 1%;
+    text-align: left;
+    margin-bottom:4%;
+}
+
+.twobyoneB{
+    float: left;
+    width: 54%;
+    margin-left: 1%;
+    text-align: left;
+    margin-bottom:4%;
+}
+
+/*A&B 32:66*/
+.twobyoneC{
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+    text-align: left;
+    margin-bottom:4%;
+}
+
+.twobyoneD{
+    float: left;
+    width: 66%;
+    margin-left: 1%;
+    text-align: left;
+    margin-bottom:4%;
+}
+
+/*horizontal one block div*/
+.oneA{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom:4%;
+}
+
+/*table type icon*/
+.tableA{
+    width:100%;
+    text-align:center;
+    margin-top: 3%;
+}
+
+.tableArow{
+    border-right:#1f5b63 2px solid;
+    border-left:#1f5b63 2px solid;
+}
+
+.tableAimg{
+    width:35%;
+    margin:5%;
+}
+
+.tableAheader{
+    font-size:26px;
+    color:#1f5b63;
+    width:50%;
+}
+
+.tableAdetail{
+    font-size:22px;
+    font-weight:bold;
+}
+
+/*table type classic*/
+.tableB{
+    width:100%;
+    text-align:center;
+    border-top:black 2px solid;
+}
+
+.tableBrow{
+    border: rgb(138, 138, 138) solid 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.tableBheader{
+    font-size:18px;
+    width:20%;
+    background-color: rgb(233, 233, 233);
+    border: rgb(138, 138, 138) solid 1px;
+    border-left: none;
+    padding:1%;
+}
+
+.tableBdetail{
+    font-size:18px;
+    width:80%;
+    text-align: left;
+    padding:1%;
+    padding-left: 3%;
 }
