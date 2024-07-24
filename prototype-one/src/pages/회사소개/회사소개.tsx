@@ -7,7 +7,9 @@ import '../divs.css';
 function 회사소개() {
   return (
   <div className='main'>
-    
+    <div className='twobyone'>
+      <h1 className='header2'>회사소개</h1>
+    </div>
   </div>
 
   );
