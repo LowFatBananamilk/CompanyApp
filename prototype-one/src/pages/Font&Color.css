@@ -1,6 +1,4 @@
-
 /*Font*/
-
 h1, h2, h3, h4, h5, h6{
     font-family: sans-serif;
     color: black;
@@ -30,6 +28,7 @@ h1, h2, h3, h4, h5, h6{
     text-align:right;
 }
 
+/*headers*/
 h1.header{
     padding-top: 7%;
     font-weight:700;
@@ -57,7 +56,6 @@ h1.header3{
     color:#1e3d7d;
 }
 
-.white{color:white;}
 
 /*Main Gradient Color*/
 
@@ -73,17 +71,6 @@ h1.header3{
     color:#1e3d7d;
 }
 
-.gradient12{
-    color:#198280;
-}
-
-.gradient13{
-    color:#18738d;
-}
-
-.gradient23{
-    color:#1f4c70;
-}
 
 /*BG Color Pallete*/
 .bg1{

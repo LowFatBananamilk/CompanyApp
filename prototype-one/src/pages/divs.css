@@ -1,0 +1,9 @@
+/*main divs that contain all elements*/
+
+.main{
+    width: 90%;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+    align-content: center;
+}
