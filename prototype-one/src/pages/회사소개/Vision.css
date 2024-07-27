@@ -1,18 +1,4 @@
-.picturesection{
-    width: 80%;
-    margin: 5%;
+.visionbg{
+    height:600px;
+    width:100%;
 }
-
-.vision1{
-    width: 70%;
-    height: 500px;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
-    align-content: center;
-    margin-top: 2%;
-    opacity: 90%;
-    z-index: -1;
-    position: relative;
-}
-

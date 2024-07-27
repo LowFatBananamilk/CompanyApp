@@ -15,7 +15,7 @@ function 조직도() {
     <div className='start'></div>
     </div>
 
-    <div className='main'>
+    <div className='main bg2'>
       <img src={조직도사진} className='imgfull'></img>
     </div>
 

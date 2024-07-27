@@ -15,3 +15,11 @@
     width:33px;
     float: left;
 }
+
+.logoimg{
+    width:70%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:15%;
+}
