@@ -11,6 +11,8 @@ import { SQS시스템, 금형제작유지보수, 사출성형공정FProof, 사�
 import { CareerInfo, HRsystem, Talent } from './pages/인재채용'
 import { Vison, 경영목표, 경영방침, 매출현황, 연혁, 조직도, 회사소개 } from './pages/회사소개'
 
+import { CustomPage } from './pages'
+
 function App() {
   return (
     <HashRouter>
@@ -63,6 +65,8 @@ function App() {
 
         {/* TODO: Delete this */}
         <Route path="/test" element={<Editor />} />
+
+        <Route path="/:menu/:subMenu" element={<CustomPage />} />
       </Routes>
     </HashRouter>
   );
