@@ -53,10 +53,9 @@ function Editor() {
         titleValue, commentValue, menuValue + '/' + subMenuValue,
         quillValue, createdByValue
       ).then(res => {
-        if (res.status === 200)
-          setLoading(false);
-        else
+        if (res.status !== 200)
           alert("저장 실패");
+        setLoading(false);
       });
   }, [
     isLoading, quillValue,
