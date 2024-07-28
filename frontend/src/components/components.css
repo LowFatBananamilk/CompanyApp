@@ -8,6 +8,16 @@
     width: 100% !important;
 }
 
+.nav-item {
+    position: static !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+
 /* Set the background color of the navbar */
 .custom-navbar {
     background-color: rgb(239, 239, 239);

@@ -61,6 +61,7 @@ function App() {
         <Route path="/인재채용/talent" element={<Talent />}/>
         <Route path="/인재채용/hrsystem" element={<HRsystem />}/>
         <Route path="/인재채용/careerInfo" element={<CareerInfo />}/>
+
       </Routes>
     </HashRouter>
   );
