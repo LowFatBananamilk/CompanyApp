@@ -117,10 +117,7 @@ function 회사소개() {
         <h1 className='header2'>오시는길</h1>
         <hr></hr>
         <img src={location} className='locicon'></img>
-        <a href="https://naver.me/xDsU3QAr">naver map</a>
       </div>
-
-    </div>
 
     <div className="footer">
       <img src={logo} className='logo'></img>
@@ -131,9 +128,9 @@ function 회사소개() {
     </div>
 
   </div>
+</div>
   
 
   );
 }
-
 export default 회사소개;
