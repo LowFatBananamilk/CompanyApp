@@ -23,7 +23,7 @@ function 연혁() {
         </h6>
         <h6 className='grey'>COPYRIGHT © 2021 <span className='white'>HANJIN PL.</span> ALL RIGHT RESERVED.
         </h6>
-      </div>
+    </div>
   </div>
   );
 }
