@@ -1,40 +1,40 @@
 import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 import './components.css'
- 
+
 const Navigation = () => {
-    return (
-        <>
-            <Navbar expand="lg" className="custom-navbar">
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="m-auto">  
-                  <NavDropdown title="회사소개" id="intro-dropdown">
-                    <NavDropdown.Item href="#/회사소개/회사소개">회사소개</NavDropdown.Item>
-                    <NavDropdown.Item href="#/회사소개/vison">Vision</NavDropdown.Item>
-                  </NavDropdown>
+  return (
+    <>
+      <Navbar expand="lg" className="custom-navbar">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="m-auto">
+            <NavDropdown title="회사소개" id="intro-dropdown">
+              <NavDropdown.Item href="#/회사소개/회사소개">회사소개</NavDropdown.Item>
+              <NavDropdown.Item href="#/회사소개/vison">Vision</NavDropdown.Item>
+            </NavDropdown>
 
-                  <NavDropdown title="관계사현황" id="intro-dropdown">
-                    <NavDropdown.Item href="#/관계사현황/주신진엔지니어링">주신진엔지니어링</NavDropdown.Item>
-                    <NavDropdown.Item href="#/관계사현황/서진티앤에이주">서진티앤에이주</NavDropdown.Item>
-                  </NavDropdown>
+            <NavDropdown title="관계사현황" id="intro-dropdown">
+              <NavDropdown.Item href="#/관계사현황/주신진엔지니어링">주신진엔지니어링</NavDropdown.Item>
+              <NavDropdown.Item href="#/관계사현황/서진티앤에이주">서진티앤에이주</NavDropdown.Item>
+            </NavDropdown>
 
-                  <NavDropdown title="ESG" id="intro-dropdown">
-                    <NavDropdown.Item href="#/esg/ESG경영">ESG경영</NavDropdown.Item>
-                  </NavDropdown>
-             
-                  <NavDropdown title="인재채용" id="intro-dropdown">
-                    <NavDropdown.Item href="#/인재채용/careerinfo">Career INFO</NavDropdown.Item>
-                  </NavDropdown>
+            <NavDropdown title="ESG" id="intro-dropdown">
+              <NavDropdown.Item href="#/esg/ESG경영">ESG경영</NavDropdown.Item>
+            </NavDropdown>
 
-                </Nav>
-              </Navbar.Collapse>
-          </Navbar>
-        </>
-    );
+            <NavDropdown title="인재채용" id="intro-dropdown">
+              <NavDropdown.Item href="#/인재채용/careerinfo">Career INFO</NavDropdown.Item>
+            </NavDropdown>
+
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </>
+  );
 };
- 
+
 export default Navigation;
