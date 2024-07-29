@@ -29,13 +29,8 @@ function ESG경영() {
             <h1 className='header1'>ESG 경영</h1>
             <div className='start'></div>
         </div>
-        <br></br>
+        <div className='oneA'><hr></hr></div>
         <div className='oneA'>
-            <h1 className='header2'>Environment Society Governance</h1>
-            <hr></hr>
-        </div>
-        <div className='oneA'>
-          <br></br>
           <Card className='introcard Ecard'>
           <Card.Img variant="top" className='intropic' src={E} />
           <Card.Body>
@@ -145,17 +140,16 @@ function ESG경영() {
           </Card.Body>
           </Card>
         </div>
-          
+        <div className='oneA'><hr></hr></div>
       </div>
 
 
-
       <div className="footer">
-      <img src={logo} className='logo'></img>
-      <h6 className='grey'>[본사] 경북 경주시 외동읍 제내2공단길 94 한진피엘 ㈜ | Tel 031-420-3200 | Fax 031-420-3120
-      </h6>
-      <h6 className='grey'>COPYRIGHT © 2021 <span className='logocolor3'>HANJIN PL.</span> ALL RIGHT RESERVED.
-      </h6>
+        <img src={logo} className='logo'></img>
+        <h6 className='grey'>[본사] 경북 경주시 외동읍 제내2공단길 94 한진피엘 ㈜ | Tel 031-420-3200 | Fax 031-420-3120
+        </h6>
+        <h6 className='grey'>COPYRIGHT © 2021 <span className='logocolor3'>HANJIN PL.</span> ALL RIGHT RESERVED.
+        </h6>
       </div>
     </div>
 
