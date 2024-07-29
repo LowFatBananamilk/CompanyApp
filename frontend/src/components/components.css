@@ -7,3 +7,29 @@
     margin-top: 0px !important;
     width: 100% !important;
 }
+
+.nav-item {
+    position: static !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+
+/* Set the background color of the navbar */
+.custom-navbar {
+    background-color: rgb(239, 239, 239);
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    color: black; /* Default link color */
+    transition: color 0.3s; /* Smooth transition for the color change */
+}
+
+/* Change the link color on hover */
+.navbar-nav .nav-link:hover {
+    color: #12a89d;
+}

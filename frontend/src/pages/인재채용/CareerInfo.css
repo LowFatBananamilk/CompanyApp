@@ -1,0 +1,30 @@
+.card3by3special{
+    height: 334px;
+    border-color:#1f5b63;
+    width:100%;
+    text-align:center;
+    align-content: center;
+    align-items: center;
+    padding:3%;
+}
+
+.threebythreeiconss{
+    align-items: center;
+    align-content: center;
+    width:24%;
+    margin-top:7%;
+    margin-left:38%;
+    margin-right:38%;
+}
+
+.threecardtitles{
+    font-size: 30px;
+    font-style:bold;
+    padding-top:1%;
+    text-align: center;
+}
+
+.threecardtexts{
+    text-align:center;
+    padding-top:2%;
+}

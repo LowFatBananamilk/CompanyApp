@@ -1,0 +1,52 @@
+/*thumbnails*/
+.thumbnailtext{
+    color: white;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 300%;
+    font-weight: 200;
+}
+
+.thumbnail1{
+    background-image: url('https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2021/08/16114210/Car-Technologies-The-World-Wants-to-See-in-the-Future-cover-160820210427.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450%;
+    height: 20%;
+}
+
+
+/*header1 horizontal bar design*/
+.start{
+    border-top-width:2cm;
+    margin:1%;
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color:#12a89d;
+    border-top-left-radius:60%;
+    border-top-right-radius:60%;
+}
+
+/*footer horizontal bar design*/
+.footer{
+    width:100%;
+    text-align:left;
+    background-color:#244552;
+    margin-top:3%;
+    padding:1%;
+    height:200px;
+    margin-bottom:0%;
+    align-items: center;
+    align-content: center;
+}
+
+.logo{
+    height:70px;
+    width: auto;
+    float:left;
+    margin-right:5%;
+    margin-left:3%;
+}

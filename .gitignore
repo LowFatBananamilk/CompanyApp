@@ -1,5 +1,11 @@
+# MacOS
+.DS_Store
+
 # Docker volumes
 db
+
+# VScode settings
+.vscode/settings.json
 
 # Logs
 logs
