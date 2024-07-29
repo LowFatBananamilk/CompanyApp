@@ -172,6 +172,45 @@
     margin-top:2%;
 }
 
+/*4by4 Cards*/
+
+.threebythreecard{
+    float: left;
+    width: 20%;
+    border-top: none;
+    border-bottom: none;
+    margin-right:1%;
+}
+
+.cardpic{
+    width:30%;
+    margin-top:4%;
+    margin-left:35%;
+    margin-right:35%;
+}
+
+.introcard{
+    float: left;
+    width: 12%;
+    border: 2px inset;
+    margin-right:2%;
+    margin-left:1.5%;
+    text-align:center;
+}
+
+.intropic{
+    width: 30%;
+    margin-top:10%;
+    margin-left: 35%;
+    margin-right:35%;
+}
+
+.cardtitle{
+    font-size:20px;
+    text-align:center;
+}
+
+
 /*Card Accordions horizontal*/
 .accordion{
     width:70%;

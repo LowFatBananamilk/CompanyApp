@@ -1,0 +1,35 @@
+.acny{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.env{
+    color:#007b1f;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gov{
+    color:#006e7f;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.soc{
+    color:#cf8300;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.Ecard{
+    border-color:#00b92e;
+}
+
+.Gcard{
+    border-color:#0094ab;
+}
+
+.Scard{
+    border-color:#ffa200;
+}
