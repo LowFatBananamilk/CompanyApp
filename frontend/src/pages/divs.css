@@ -241,7 +241,7 @@
 .actitle{
     font-size: 30px;
     text-align: left;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .actext{
@@ -252,9 +252,10 @@
 
 .accordionicon{
     float:left;
-    width:10%;
-    margin:4%;
-    margin-bottom:2%;
+    width:80px;
+    margin-right:20px;
+    margin-left:2px;
+    margin-bottom:10px;
 }
 
 .cardbody{
@@ -281,4 +282,12 @@
     margin-right:15%;
     margin-bottom:2%;
     border:#1f5b63 2px solid;
+}
+
+.accordioniconS{
+    float:left;
+    width:80px;
+    margin-right:25px;
+    margin-left:15px;
+    margin-bottom:10px;
 }

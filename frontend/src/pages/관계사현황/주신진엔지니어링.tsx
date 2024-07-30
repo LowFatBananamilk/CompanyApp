@@ -5,12 +5,6 @@ import '../divs.css'
 import '../Font&Color.css'
 import './제조공정.css'
 
-import 지원 from './지원.svg'
-import 합격 from './합격.svg'
-import 인터뷰 from './인터뷰.svg'
-import 서류 from './서류.svg'
-import './채용정보.css'
-
 
 export default function 주신진엔지니어링() {
     return (
@@ -69,29 +63,6 @@ export default function 주신진엔지니어링() {
             <div className='twobyoneD'>
                 <img src={IMG} className='imgfull3'></img>
             </div>
-            
-
-            <div className='oneA'>
-            <br></br>
-            <h1 className='header2'>채용정보</h1>
-            <hr></hr>
-            <br></br>
-            <table className='apptable'>
-                <tr className='approw'>
-                <td><img src={지원} className='appimg'></img></td>
-                <td><img src={서류} className='appimg'></img></td>
-                <td><img src={인터뷰} className='appimg'></img></td>
-                <td><img src={합격} className='appimg'></img></td>
-                </tr>
-                <tr className='approw'>
-                <th className='appth'>I. 입사지원(온라인)</th>
-                <th className='appth'>II. 서류전형 심사</th>
-                <th className='appth'>III. 인터뷰 심사</th>
-                <th className='appth'>IV. 최종합격</th>
-                </tr>
-            </table>
-            </div>
-
 
         </div>
     </div>

@@ -25,6 +25,13 @@ import 품질경영 from './품질경영.svg'
 import 인사노무 from './인사노무.svg'
 import logo from '../logo.png'
 
+import 지원 from './지원.svg'
+import 합격 from './합격.svg'
+import 인터뷰 from './인터뷰.svg'
+import 서류 from './서류.svg'
+import './채용정보.css'
+
+
 function CareerInfo() {
   return (
   <div>
@@ -34,13 +41,34 @@ function CareerInfo() {
     </div>
 
     <div className='main'>
+    <div className='oneA'>
+      <h1 className='header2'>채용정보</h1>
+      <hr></hr>
+      <br></br>
+      <table className='apptable'>
+        <tr className='approw'>
+          <td><img src={지원} className='appimg'></img></td>
+          <td><img src={서류} className='appimg'></img></td>
+          <td><img src={인터뷰} className='appimg'></img></td>
+          <td><img src={합격} className='appimg'></img></td>
+        </tr>
+        <tr className='approw'>
+          <th className='appth'>I. 입사지원(온라인)</th>
+          <th className='appth'>II. 서류전형 심사</th>
+          <th className='appth'>III. 인터뷰 심사</th>
+          <th className='appth'>IV. 최종합격</th>
+        </tr>
+      </table>
+      </div>
+
+    <div className='oneA'>
       <h1 className='header2'>직무소개</h1>
       <hr></hr>
       <br></br>
 
         <Card className='accordioncardS'>
           <Card.Body className='cardbody'>
-              <img src={구매팀} className='accordionicon'></img>
+              <img src={구매팀} className='accordioniconS'></img>
               <Card.Title className='actitle'>구매팀</Card.Title>
               <Card.Text className='actext'>
               제품 생산과 회사운영에 필요한 원자재 및 부품 등을 적절한 가격으로 공급할 수 있도록 하며,
@@ -51,7 +79,7 @@ function CareerInfo() {
 
         <Card className='accordioncardS'>
           <Card.Body className='cardbody'>
-              <img src={원가팀} className='accordionicon'></img>
+              <img src={원가팀} className='accordioniconS'></img>
               <Card.Title className='actitle'>원가팀</Card.Title>
               <Card.Text className='actext'>
               고객사로부터 신규/후속 차종의 제품 수주 및 가격결정업무를 담당하는 부서입니다. 회사의 지속적인 성장과 수익성 확보, 매출확대를 위해 전략적인 입찰을 고객사 및 협력업체와 협상하고 결정합니다.
@@ -206,7 +234,6 @@ function CareerInfo() {
         </Accordion>
 
 
-
         <Accordion className='accordion'>
           <Accordion.Item eventKey="0" className='accordionitem'>
             <Accordion.Header>
@@ -265,6 +292,7 @@ function CareerInfo() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
+      </div>
     </div>
 
 
