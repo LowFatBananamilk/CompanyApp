@@ -16,7 +16,7 @@ const Navigation = () => {
               <NavDropdown.Item href="#/회사소개/회사정보">회사정보</NavDropdown.Item>
               <NavDropdown.Item href="#/회사소개/vison">Vision</NavDropdown.Item>
               <NavDropdown.Item href="#/회사소개/인증서현황">인증서현황</NavDropdown.Item>
-              <NavDropdown.Item href="#/회사소개/CEO인사말">CEO인사말</NavDropdown.Item>
+              <NavDropdown.Item href="#/회사소개/경영이념">경영이념</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="관계사현황" id="intro-dropdown">
