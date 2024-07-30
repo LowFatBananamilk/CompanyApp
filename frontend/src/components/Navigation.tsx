@@ -29,7 +29,9 @@ const Navigation = () => {
 
             <NavDropdown title="사업장" id="intro-dropdown">
               <NavDropdown.Item href="#/사업장/관계사">관계사</NavDropdown.Item>
-            </NavDropdown>  
+            </NavDropdown>
+
+            <Nav.Link>제품</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
