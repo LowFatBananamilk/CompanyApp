@@ -13,7 +13,7 @@ const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <NavDropdown title="회사소개" id="intro-dropdown">
-              <NavDropdown.Item href="#/회사소개/회사소개">회사소개</NavDropdown.Item>
+              <NavDropdown.Item href="#/회사소개/회사정보">회사정보</NavDropdown.Item>
               <NavDropdown.Item href="#/회사소개/vison">Vision</NavDropdown.Item>
             </NavDropdown>
 

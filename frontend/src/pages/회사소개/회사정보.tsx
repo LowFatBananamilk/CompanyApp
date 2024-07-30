@@ -1,14 +1,14 @@
 import React from 'react';
 import '../Font&Color.css';
 import '../thumbnail&details.css';
-import './회사소개.css'; 
+import './회사정보.css'; 
 import '../divs.css';
 import company from './company.svg';
 import workers from './workers.svg';
 import location from './location.svg'
 import logo from '../logo.png'
 
-function 회사소개() {
+function 회사정보() {
   return (
   <div>
     <div>
@@ -133,4 +133,4 @@ function 회사소개() {
 
   );
 }
-export default 회사소개;
+export default 회사정보;
