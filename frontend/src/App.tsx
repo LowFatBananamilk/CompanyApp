@@ -9,6 +9,7 @@ import { Vison, 회사정보, 인증서현황, CEO인사말, 경영이념 } from
 import { ESG경영 } from './pages/ESG'
 import { CareerInfo } from './pages/인재채용'
 import { 주신진엔지니어링, 서진티앤에이주 } from './pages/관계사현황'
+import { 관계사 } from './pages/사업장'
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
 
         <Route path="/인재채용" element={<CareerInfo />} />
         <Route path="/인재채용/careerInfo" element={<CareerInfo />} />
+
+        <Route path="/사업장/관계사" element={<관계사 />} />
 
       </Routes>
     </HashRouter>
