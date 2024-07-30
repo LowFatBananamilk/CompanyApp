@@ -16,14 +16,6 @@ function 연혁() {
     <div className='main'>
       <img src={연혁사진} className='imgfull'></img>
     </div>
-
-    <div className="footer">
-        <img src={logo} className='logo'></img>
-        <h6 className='grey'>[본사] 경북 경주시 외동읍 제내2공단길 94 한진피엘 ㈜ | Tel 031-420-3200 | Fax 031-420-3120
-        </h6>
-        <h6 className='grey'>COPYRIGHT © 2021 <span className='white'>HANJIN PL.</span> ALL RIGHT RESERVED.
-        </h6>
-    </div>
   </div>
   );
 }
