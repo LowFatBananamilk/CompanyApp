@@ -19,11 +19,6 @@ const Navigation = () => {
               <NavDropdown.Item href="#/회사소개/경영이념">경영이념</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="관계사현황" id="intro-dropdown">
-              <NavDropdown.Item href="#/관계사현황/주신진엔지니어링">주신진엔지니어링</NavDropdown.Item>
-              <NavDropdown.Item href="#/관계사현황/서진티앤에이주">서진티앤에이주</NavDropdown.Item>
-            </NavDropdown>
-
             <NavDropdown title="ESG" id="intro-dropdown">
               <NavDropdown.Item href="#/esg/ESG경영">ESG경영</NavDropdown.Item>
             </NavDropdown>
