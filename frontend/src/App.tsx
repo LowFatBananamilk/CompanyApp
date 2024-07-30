@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 import { HashRouter, Routes, Route } from "react-router-dom";
-import { Navigation, Footer } from './components'
+import { Navigation, Footer, NavCarousel } from './components'
 import { Main } from './pages'
 import { Vison, 회사정보, 인증서현황, CEO인사말, 경영이념 } from './pages/회사소개'
 import { ESG경영 } from './pages/ESG'
@@ -15,6 +15,8 @@ function App() {
   return (
     <HashRouter>
       <Navigation />
+      
+      <NavCarousel />
 
       <Routes>
         <Route path="/" element={<Main />} />
