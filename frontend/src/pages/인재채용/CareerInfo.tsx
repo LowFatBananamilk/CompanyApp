@@ -265,9 +265,8 @@ function CareerInfo() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-
-    
     </div>
+
 
     <div className="footer">
       <img src={logo} className='logo'></img>

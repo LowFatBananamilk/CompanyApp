@@ -44,7 +44,7 @@
     margin-bottom:4%;
 }
 
-/*C&D 32:66*/
+/*C&D 26:72*/
 .twobyoneE{
     float: left;
     width: 26%;
@@ -84,6 +84,14 @@
     align-items: center;
     margin-left:25%;
     margin-right:25%;
+}
+
+.imgfull3{
+    width:90%;
+    align-content: center;
+    align-items: center;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 /*table type icon*/
@@ -192,7 +200,7 @@
 .introcard{
     float: left;
     width: 12%;
-    border: 2px inset;
+    border: 3px inset;
     margin-right:2%;
     margin-left:1.5%;
     text-align:center;
