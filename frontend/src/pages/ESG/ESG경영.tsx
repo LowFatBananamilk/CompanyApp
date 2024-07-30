@@ -30,7 +30,7 @@ function ESG경영() {
             <div className='start'></div>
         </div>
         <div className='oneA'><hr></hr></div>
-        <div className='oneA'>
+        <div className='oneA bg2'>
           <Card className='introcard Ecard'>
           <Card.Img variant="top" className='intropic' src={E} />
           <Card.Body>
@@ -67,7 +67,7 @@ function ESG경영() {
           </Card>
         </div>
 
-        <div className='oneA'>
+        <div className='oneA bg2'>
           <Card className='introcard Scard'>
           <Card.Img variant="top" className='intropic' src={S} />
           <Card.Body>
@@ -104,8 +104,8 @@ function ESG경영() {
           </Card>
         </div>
 
-        <div className='oneA'>
-          <Card className='introcard Gcard'>
+        <div className='oneA bg2'>
+          <Card className='introcard Gcard bg2'>
           <Card.Img variant="top" className='intropic' src={G} />
           <Card.Body>
             <Card.Title className='gov'><span className='acny'>G</span>overnance 지배구조</Card.Title>
