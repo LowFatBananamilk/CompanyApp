@@ -25,6 +25,8 @@ const Navigation = () => {
 
             <NavDropdown title="인재채용" id="intro-dropdown">
               <NavDropdown.Item href="#/인재채용/careerinfo">Career INFO</NavDropdown.Item>
+              <NavDropdown.Item href="#/인재채용/Q&A">Q&A</NavDropdown.Item>
+              <NavDropdown.Item href="#/인재채용/채용링크">채용링크</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="사업장" id="intro-dropdown">
