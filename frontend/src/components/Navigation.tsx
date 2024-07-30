@@ -32,6 +32,8 @@ const Navigation = () => {
               <NavDropdown.Item href="#/인재채용/careerinfo">Career INFO</NavDropdown.Item>
             </NavDropdown>
 
+            <Nav.Link>사업장</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>
