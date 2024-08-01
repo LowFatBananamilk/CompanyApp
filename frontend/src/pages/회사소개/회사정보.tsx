@@ -7,6 +7,7 @@ import company from './company.svg';
 import workers from './workers.svg';
 import location from './location.svg'
 import logo from '../logo.png'
+import { Map } from '../../components'
 
 function 회사정보() {
   return (
@@ -116,7 +117,7 @@ function 회사정보() {
       <div className='oneA'>
         <h1 className='header2'>오시는길</h1>
         <hr></hr>
-        <img src={location} className='locicon'></img>
+        <Map latitude={35.724136980121614} longitude={129.28241053771103} zoom={4} />
       </div>
   </div>
 </div>
