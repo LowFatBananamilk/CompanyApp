@@ -5,8 +5,7 @@ import './회사정보.css';
 import '../divs.css';
 import company from './company.svg';
 import workers from './workers.svg';
-import location from './location.svg'
-import logo from '../logo.png'
+import CI from '../CI.png'
 import { Map } from '../../components'
 
 function 회사정보() {
@@ -103,7 +102,7 @@ function 회사정보() {
       <hr></hr>
       </div>
       <div className='twobyoneE'>
-        <img src={logo} className='logoimg'></img>
+        <img src={CI} className='logoimg'></img>
       </div>
       <div className='twobyoneF'>
         <h3>현재를 뛰어넘어 미래 가치 창조를 향해 전진하는 기업정신을 표현하고 있습니다.</h3>

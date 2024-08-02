@@ -1,0 +1,24 @@
+.def{
+    font-weight:400;
+    font-size: 20px;
+    margin-top:0%;
+    margin-bottom:10%;
+    padding:3%;
+    padding-bottom:0%;
+    text-align: left;
+}
+
+.defq{
+    margin-top:10%;
+    padding-left:3%;
+    text-align: left;
+    font-weight:500;
+    color:#1e3d7d;
+}
+
+.border1{
+    border-top: 4px groove;
+    border-bottom: 4px groove;
+    border-color: #1e3d7d;
+    background-color: #1e3e7d08;
+}
