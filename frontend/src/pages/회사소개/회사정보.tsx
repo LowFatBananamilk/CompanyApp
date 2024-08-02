@@ -1,15 +1,14 @@
 import React from 'react';
 import '../Font&Color.css';
 import '../thumbnail&details.css';
-import './회사소개.css'; 
+import './회사정보.css'; 
 import '../divs.css';
 import company from './company.svg';
 import workers from './workers.svg';
-import location from './location.svg'
-import logo from '../logo.png'
 import CI from '../CI.png'
+import { Map } from '../../components'
 
-function 회사소개() {
+function 회사정보() {
   return (
   <div>
     <div>
@@ -117,21 +116,12 @@ function 회사소개() {
       <div className='oneA'>
         <h1 className='header2'>오시는길</h1>
         <hr></hr>
-        <img src={location} className='locicon'></img>
+        <Map latitude={35.724136980121614} longitude={129.28241053771103} zoom={4} />
       </div>
-
-  </div>
-
-  <div className="footer">
-      <img src={logo} className='logo'></img>
-      <h6 className='grey'>[본사] 경북 경주시 외동읍 제내2공단길 94 한진피엘 ㈜ | Tel 031-420-3200 | Fax 031-420-3120
-      </h6>
-      <h6 className='grey'>COPYRIGHT © 2021 <span className='logocolor3'>HANJIN PL.</span> ALL RIGHT RESERVED.
-      </h6>
   </div>
 </div>
   
 
   );
 }
-export default 회사소개;
+export default 회사정보;
