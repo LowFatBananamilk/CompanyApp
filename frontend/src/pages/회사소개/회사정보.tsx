@@ -95,6 +95,8 @@ function 회사정보() {
             <td className='tableBdetail'>경북 경주시 외동읍 제내2공단길 94 한진피엘 ㈜</td>
           </tr>
         </table>
+        <br></br>
+        <br></br>
       </div>
 
       <div className='oneA'>
@@ -111,6 +113,8 @@ function 회사정보() {
         <h5 className='light'><p>㈜신진엔지니어링과 ㈜한진피엘에 공통적으로 적용되는 이니셜 J를 심볼화한 로고입니다.</p>
         <p>좌측에는 이니셜을 우측으로는 나아가는 그래픽을 배치하여, 미래가치를 창조하고 길을 열어간다는 의미를 담았습니다.</p>
         <p>딥한 그린계열의 컬러를 메인으로 진중하고 신뢰감 있는 분위기를 전달합니다.</p></h5>
+        <br></br>
+        <br></br>
       </div>
 
       <div className='oneA'>
