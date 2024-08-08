@@ -1,0 +1,35 @@
+.t33{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    float:left;
+    border-top: 4px double black;
+    border-bottom: 4px double black;
+}
+
+.t33r{
+    padding:1%;
+    border:1px solid black;
+}
+
+.t33d1{
+    background-color: #1e3d7d;
+    color:white;
+    font-weight:700;
+    padding:1%;    
+}
+
+.t33d2{
+    background-color: #1e3e7d31;
+    font-weight:600;
+    padding:1%;
+}
+
+.t33d3{
+    background-color: #1e3e7d09;
+    font-weight:600;
+    padding:1%;
+}
