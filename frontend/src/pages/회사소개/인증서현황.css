@@ -1,0 +1,42 @@
+.tabletbt{
+    align-items: center;
+    align-content: center;
+    text-align:center;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    border-top: black double 4px;
+}
+
+.tabletbtr{
+    align-items: center;
+    text-align: center;
+}
+
+.tabletbth{
+    background-color: rgb(224, 224, 224);
+    padding:1%;
+    text-align: center;
+    border-left: solid 1px rgb(186, 186, 186);
+    border-right: solid 1px rgb(186, 186, 186);
+    font-size: 20px;
+    font-weight:400;
+}
+
+.tabletbtd{
+    align-items: center;
+    align-content: center;
+    text-align:center;
+    border-left: solid 1px rgb(186, 186, 186);
+    border-right: solid 1px rgb(186, 186, 186);
+}
+
+.tabletbtimgA{
+    width:70%;
+    margin:1%;
+}
+
+.tabletbtimgB{
+    width:65%;
+    margin:1%;
+}
