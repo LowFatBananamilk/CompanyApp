@@ -105,44 +105,90 @@ export default function 설비현황() {
                 <td className='t33d2'>IMG 진공 성형기</td>
                 <td className='t33d2'>30 TON</td>
                 <td className='t33d2'>1</td>
-                <td className='t33d3'>IMG 매스비끼</td>
+                <td className='t33d2'>IMG 매스비끼</td>
               </tr>
               <tr className='t33r'>
                 <td className='t33d2'>2</td>
                 <td className='t33d2'>IMG 진공 성형기</td>
                 <td className='t33d2'>15 TON</td>
                 <td className='t33d2'>1</td>
-                <td className='t33d3'>IMG 매스비끼</td>
+                <td className='t33d2'>IMG 매스비끼</td>
               </tr>
               <tr className='t33r'>
                 <td className='t33d2'>3</td>
                 <td className='t33d2'>IMG 진공 성형기</td>
                 <td className='t33d2'>15 TON</td>
                 <td className='t33d2'>1</td>
-                <td className='t33d3'>IMG 매스비끼</td>
+                <td className='t33d2'>IMG 매스비끼</td>
               </tr>
               <tr className='t33r'>
                 <td className='t33d2'>4</td>
                 <td className='t33d2'>IMG 진공 성형기</td>
                 <td className='t33d2'>15 TON</td>
                 <td className='t33d2'>1</td>
-                <td className='t33d3'>IMG 매스비끼</td>
+                <td className='t33d2'>IMG 매스비끼</td>
               </tr>
               <tr className='t33r'>
                 <td className='t33d2'>5</td>
                 <td className='t33d2'>진공 성형기</td>
                 <td className='t33d2'>50 kw</td>
                 <td className='t33d2'>1</td>
-                <td className='t33d3'>IMG 매스비끼</td>
+                <td className='t33d2'>IMG 매스비끼</td>
               </tr>
               <tr className='t33r'>
                 <td className='t33d2'>6</td>
                 <td className='t33d2'>진공 성형기</td>
                 <td className='t33d2'>150 TON</td>
                 <td className='t33d2'>1</td>
-                <td className='t33d3'>오스비끼</td>
+                <td className='t33d2'>오스비끼</td>
+              </tr>
+              <tr className='t33r'>
+                <td className='t33d2'>6</td>
+                <td className='t33d2'>진공 성형기</td>
+                <td className='t33d2'>150 TON</td>
+                <td className='t33d2'>1</td>
+                <td className='t33d2'>오스비끼</td>
+              </tr>
+              <tr className='t33r'>
+                <td className='t33d2'>7</td>
+                <td className='t33d2'>TRIM&PIERC'G</td>
+                <td className='t33d2'>150 TON</td>
+                <td className='t33d2'>2</td>
+                <td className='t33d2'>PRESS</td>
+              </tr>
+              <tr className='t33r'>
+                <td className='t33d2'>8</td>
+                <td className='t33d2'>TRIM&PIERC'G</td>
+                <td className='t33d2'>30 TON</td>
+                <td className='t33d2'>3</td>
+                <td className='t33d2'>PRESS</td>
+              </tr>
+              <tr className='t33r'>
+                <td className='t33d2'>9</td>
+                <td className='t33d2'>TRIM&PIERC'G</td>
+                <td className='t33d2'>20 TON</td>
+                <td className='t33d2'>4</td>
+                <td className='t33d2'>PRESS</td>
+              </tr>
+              <tr className='t33r'>
+                <td className='t33d2'>10</td>
+                <td className='t33d2'>AIR BLOW 압착기</td>
+                <td className='t33d2'>50 TON</td>
+                <td className='t33d2'>1</td>
+                <td className='t33d2'>PRESS</td>
+              </tr>
+              <tr className='t33r'>
+                <td className='t33d2'>11</td>
+                <td className='t33d2'>자동 스티치 미싱기</td>
+                <td className='t33d2'>-</td>
+                <td className='t33d2'>3</td>
+                <td className='t33d2'>미싱기</td>
               </tr>
               
+            </table>
+
+            <table className='t33'>
+              <tr></tr>
             </table>
         </div>
     </div>

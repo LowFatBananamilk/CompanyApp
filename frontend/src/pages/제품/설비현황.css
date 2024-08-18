@@ -2,9 +2,9 @@
     text-align: center;
     align-items: center;
     align-content: center;
-    width:40%;
-    margin-left:5%;
-    margin-right:5%;
+    width:45%;
+    margin-left:2.5%;
+    margin-right:2.5%;
     float:left;
     border-top: 4px double black;
     border-bottom: 4px double black;
@@ -33,3 +33,4 @@
     font-weight:600;
     padding:1%;
 }
+
