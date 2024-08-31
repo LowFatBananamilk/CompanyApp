@@ -10,11 +10,6 @@ import logo from '../logo.png'
 export default function 관계사() {
   return (
     <div>
-      <p>관계사</p>
-      <br />
-      <Map latitude={35.693212283910405} longitude={129.31246033663027} zoom={8} />
-    
-    
         <div> 
             <h1 className='header1'>관계사</h1>
             <div className='start'></div>
@@ -57,6 +52,7 @@ export default function 관계사() {
                 </table>
             </div>
             <h1 className='header3'>오시는길</h1>
+            <Map latitude={35.693212283910405} longitude={129.31246033663027} zoom={8} />
             
         </div>
 
@@ -97,6 +93,8 @@ export default function 관계사() {
                 </table>
             </div>
             <h1 className='header3'>오시는길</h1>
+            <Map latitude={35.693212283910405} longitude={129.31246033663027} zoom={8} />
+            
         </div>
 
     </div>
