@@ -13,13 +13,13 @@ export default function 설비현황() {
             <div className='start'></div>
         </div>
 
-        <div className='main'>
+        <div className='main bg2'>
             <div className='oneA'>
                 <h1 className='header2'>공정설비현황</h1>
                 <hr></hr>
             </div>
-            
-            <table className='t33'>
+            <div className='oneA'>
+              <table className='t33'>
               <tr className='t33r'>
                 <td className='t33d1'>1호기</td>
                 <td className='t33d2'>JSW 1,800 TON</td>
@@ -90,9 +90,9 @@ export default function 설비현황() {
                 <td className='t33d2'>도시바 650 TON</td>
                 <td className='t33d3'>유압식</td>
               </tr>
-            </table>
+              </table>
 
-            <table className='t33'>
+              <table className='t33'>
               <tr className='t33r'>
                 <td className='t33d1'>NO</td>
                 <td className='t33d1'>설비명</td>
@@ -185,11 +185,20 @@ export default function 설비현황() {
                 <td className='t33d2'>미싱기</td>
               </tr>
               
-            </table>
+              </table>
+              <br></br>
+            </div>
+            
+            
+            <div className='oneA'>
+              <div className='tbox'>
+                <h4 className='bold'>진공성형기 <span className='logocolor3'>6대</span></h4>
+                <h4 className='bold'>TRIM&PIERC'G PRESS <span className='logocolor3'>9대</span></h4>
+                <h4 className='bold'>AIR BLOW 압착기 <span className='logocolor3'>1대</span></h4>
+                <h4 className='bold'>자동 스티치 미싱기 <span className='logocolor3'>3대</span></h4> 
+              </div>
+            </div>
 
-            <table className='t33'>
-              <tr></tr>
-            </table>
         </div>
     </div>
   );
