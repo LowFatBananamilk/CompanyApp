@@ -7,6 +7,7 @@ import company from './company.svg';
 import workers from './workers.svg';
 import CI from '../CI.png'
 import { Map } from '../../components'
+import 회사전경 from './회사전경.jpg'
 
 function 회사정보() {
   return (
@@ -18,7 +19,7 @@ function 회사정보() {
 
     <div className='main'>
       <div className='twobyoneA'>
-        <img src='http://hanjinpl.co.kr/images/carrier_22.png' className='companyimg'></img>
+        <img src={회사전경} className='companyimg'></img>
       </div>
       
       <div className='twobyoneB'>

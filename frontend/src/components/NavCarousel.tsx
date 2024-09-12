@@ -51,7 +51,7 @@ export default function NavCarousel() {
             <img className='navCarousel' src="https://cdn.pixabay.com/photo/2018/08/31/18/51/mercedes-benz-3645351_1280.jpg"></img>
             <Carousel.Caption>
               <h3 className='CIH'>제품</h3>
-              <p className='CIP'>제조공정, 설비현황, 제품소개</p>
+              <p className='CIP logocolor1'>제조공정, 설비현황, 제품소개</p>
             </Carousel.Caption>
           </a>
         </Carousel.Item>
