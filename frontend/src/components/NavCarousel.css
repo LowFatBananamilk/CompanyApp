@@ -7,13 +7,25 @@
     height:350px;
 }
 
-.CIH{
+.CIH2{
     color:white;
     font-weight:700;
     font-size: 35px;
 }
 
-.CIP{
+.CIH1{
+    color:black;
+    font-weight:700;
+    font-size: 35px;
+}
+
+.CIP1{
+    color:black;
+    font-weight:700;
+    font-size:20px;
+}
+
+.CIP2{
     color:white;
     font-weight:600;
     font-size:20px;
