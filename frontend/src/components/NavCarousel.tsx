@@ -27,7 +27,7 @@ export default function NavCarousel() {
         </Carousel.Item>
 
         <Carousel.Item interval={5000} className='itemc'>
-          <a href="#/회사소개/회사정보">
+          <a href="#/인재채용/CareerInfo">
             <img className='navCarousel' src="https://cdn.pixabay.com/photo/2024/06/09/14/44/businessman-8818855_1280.jpg"></img>
             <Carousel.Caption>
               <h3 className='CIH2'>인재채용</h3>
@@ -37,7 +37,7 @@ export default function NavCarousel() {
         </Carousel.Item>
 
         <Carousel.Item interval={5000} className='itemc'>
-          <a href="#/회사소개/회사정보">
+          <a href="#/사업장/관계사">
             <img className='navCarousel' src="https://cdn.pixabay.com/photo/2013/06/10/09/23/desert-123978_1280.jpg"></img>
             <Carousel.Caption>
               <h3 className='CIH2'>사업장</h3>
@@ -47,7 +47,7 @@ export default function NavCarousel() {
         </Carousel.Item>
 
         <Carousel.Item interval={5000} className='itemc'>
-          <a href="#/회사소개/회사정보">
+          <a href="#/제품/제조공정">
             <img className='navCarousel' src="https://cdn.pixabay.com/photo/2018/08/31/18/51/mercedes-benz-3645351_1280.jpg"></img>
             <Carousel.Caption>
               <h3 className='CIH2'>제품</h3>
