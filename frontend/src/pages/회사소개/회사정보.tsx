@@ -5,7 +5,8 @@ import './회사정보.css';
 import '../divs.css';
 import company from './company.svg';
 import workers from './workers.svg';
-import CI from '../CI.png'
+// import CI from '../CI.png'
+import CI from '../CIGif.gif'
 import { Map } from '../../components'
 import 회사전경 from './회사전경.jpg'
 

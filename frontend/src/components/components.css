@@ -1,11 +1,22 @@
-.nav-item {
-    position: static !important;
+.navbar-nav {
+    width: 100% !important;
+    justify-content: space-around !important;
 }
+.nav-link {
+    width: 100px !important;
+    text-align: center;
+}
+/* .nav-item {
+    position: static !important;
+} */
 
 .dropdown-menu {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
     margin-top: 0px !important;
     width: 100% !important;
+}
+.dropdown-item {
+    text-align: center;
 }
 
 .nav-item {
