@@ -1,8 +1,13 @@
 import logo from '../pages/logo.png';
+import { useLocation } from 'react-router-dom';
 import '../pages/thumbnail&details.css';
 import '../pages/Font&Color.css';
 
 export default function Footer() {
+    const { pathname } = useLocation();
+    if (pathname === "/")
+      return null;
+
     return (
         <div className="footer">
             <img src={logo} alt='Logo' className='logo' />
