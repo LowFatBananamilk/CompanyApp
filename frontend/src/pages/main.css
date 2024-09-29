@@ -1,0 +1,57 @@
+.Mainbar{
+    border: 5px solid white;
+    margin-bottom: -4px;
+}
+
+.MainTitle{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 700px;
+    text-align: left;
+}
+
+.navCarouselA{
+    height:900px;
+    width:100%;
+}
+
+.navCarouselA1{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.itemcA1{
+    background-color: #1e3d7d;
+    align-items: center;
+    align-content: center;
+    height: 900px;
+}
+
+.itemcA{
+    width:100%;
+}
+
+.CIH2A{
+    color:white;
+    font-weight:700;
+    font-size: 35px;
+}
+
+.CIH1A{
+    color:black;
+    font-weight:700;
+    font-size: 35px;
+}
+
+.CIP1A{
+    color:black;
+    font-weight:700;
+    font-size:20px;
+}
+
+.CIP2A{
+    color:white;
+    font-weight:600;
+    font-size:20px;
+}
