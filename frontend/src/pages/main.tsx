@@ -1,21 +1,23 @@
 
 import './main.css';
 import Carousel from 'react-bootstrap/Carousel';
-import animation from './animation.gif'
+import civideo from './civideo.mp4';
 
 export default function Main() {
   return (
     <div>
       <br></br>
       <Carousel fade>
-      <Carousel.Item interval={20000} className='itemcA1'>
+      <Carousel.Item interval={30000} className='itemcA1'>
           <a href="#/회사소개/회사정보">
-            <img className='navCarouselA1' src={animation}></img>
+            <video width="100%" autoPlay>
+              <source src={civideo} type="video/mp4"/>
+            </video>
             <Carousel.Caption>
               <hr className='Mainbar'></hr>
-              <hr></hr>
+              <hr className='Mainbar1'></hr>
               <h1 className='MainTitle'>
-                <span className='white'>Welcome to</span><span className='logocolor1'> HanjinPL</span></h1>
+                <span className='logocolor3'>Welcome to</span><span className='logocolor1'> HanjinPL</span></h1>
             </Carousel.Caption>
           </a>
         </Carousel.Item>

@@ -1,0 +1,33 @@
+.toggle2{
+    font-weight:600;
+    font-size: 20px;
+}
+
+.toggle2:hover{
+    color: #1f5b63; 
+    font-weight:800;
+}
+
+
+.toggle{
+    font-weight:800;
+    color: #1f5b63;
+}
+
+
+.column{
+    border-right:#1f5b63 1.5px solid;
+    border-left:#1f5b63 1.5px solid;
+}
+
+.Menu{
+    background-color:#e8e8e8;
+}
+
+.Menu:hover{
+    background-color:#d8d8d8;
+}
+
+.cigif{
+    width:50%;
+}
