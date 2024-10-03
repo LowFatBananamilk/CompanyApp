@@ -5,6 +5,9 @@ import '../divs.css';
 import { Map } from '../../components'
 import './관계사.css'
 import logo from '../logo.png'
+import pic1 from './pic1.png'
+import pic2 from './pic2.jpg'
+import pic3 from './pic3.jpg'
 
 
 export default function 관계사() {
@@ -21,14 +24,7 @@ export default function 관계사() {
                 <hr></hr>
             </div>
             <div className='twobyoneC'>
-                <table className='tableA'>
-                <tr className='tableArow'>
-                    <th className='tableAheader'>회사전경</th>
-                </tr>
-                <tr className='tableArow'>
-                <img src={logo} className='companypic'></img>
-                </tr>
-                </table>
+                <img src={pic1} className='companypic'></img>
             </div>
 
             <div className='twobyoneD'>
@@ -51,9 +47,10 @@ export default function 관계사() {
                 </tr>
                 </table>
             </div>
-            <h1 className='header3'>오시는길</h1>
+            <div className='oneA'>
+            <h1 className='header3 center'>오시는길</h1>
             <Map latitude={35.693212283910405} longitude={129.31246033663027} zoom={8} />
-            
+            </div>
         </div>
 
         <div className='main'>
@@ -62,14 +59,7 @@ export default function 관계사() {
                 <hr></hr>
             </div>
             <div className='twobyoneC'>
-                <table className='tableA'>
-                <tr className='tableArow'>
-                    <th className='tableAheader'>회사전경</th>
-                </tr>
-                <tr className='tableArow'>
                 <img src={logo} className='companypic'></img>
-                </tr>
-                </table>
             </div>
 
             <div className='twobyoneD'>
