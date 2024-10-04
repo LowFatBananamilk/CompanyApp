@@ -10,7 +10,7 @@ export default function Main() {
       <Carousel fade>
       <Carousel.Item interval={30000} className='itemcA1'>
           <a href="#/회사소개/회사정보">
-            <video width="100%" autoPlay>
+            <video width="100%" autoPlay muted>
               <source src={civideo} type="video/mp4"/>
             </video>
             <Carousel.Caption>
