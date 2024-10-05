@@ -6,20 +6,17 @@ import civideo from './civideo.mp4';
 export default function Main() {
   return (
     <div>
-      <br></br>
       <Carousel fade>
       <Carousel.Item interval={30000} className='itemcA1'>
-          <a href="#/회사소개/회사정보">
-            <video width="100%" autoPlay muted>
+
+              <hr className='bar'></hr>
+              <h1 className='MainTitle'><span className='white'> &nbsp; &nbsp; Welcome to</span>
+              <span className='logocolor1'> HanjinPL</span></h1> 
+
+         
+            <video className='video' autoPlay muted>
               <source src={civideo} type="video/mp4"/>
             </video>
-            <Carousel.Caption>
-              <hr className='Mainbar'></hr>
-              <hr className='Mainbar1'></hr>
-              <h1 className='MainTitle'>
-                <span className='logocolor3'>Welcome to</span><span className='logocolor1'> HanjinPL</span></h1>
-            </Carousel.Caption>
-          </a>
         </Carousel.Item>
         <Carousel.Item interval={5000} className='itemcA'>
           <a href="#/회사소개/회사정보">

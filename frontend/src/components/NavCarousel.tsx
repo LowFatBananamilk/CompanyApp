@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useLocation } from 'react-router-dom';
 import Image from '../pages/logo.png';
 import './NavCarousel.css';
+import './Navigation.css';
 
 export default function NavCarousel() {
   const { pathname } = useLocation();

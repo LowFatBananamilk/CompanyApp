@@ -10,7 +10,7 @@ const NavigationSubMenu = () => {
         <div>
             <Row>
                 <Col className="column">
-                    <NavDropdown.Item className="toggle" href="#"><img className="cigif" src={animation}></img></NavDropdown.Item>
+                    <NavDropdown.Item href="#"><img className="cigif" src={animation}></img></NavDropdown.Item>
                 </Col>
                 <Col className="column">
                     <NavDropdown.Item className="toggle" href="#/회사소개/회사정보">회사정보</NavDropdown.Item>

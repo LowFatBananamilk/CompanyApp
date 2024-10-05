@@ -12,6 +12,13 @@
 .toggle{
     font-weight:800;
     color: #1f5b63;
+    text-align: left;
+}
+
+.toggle:hover{
+    color:white;
+    background-color: #1f5b63; 
+    font-weight:800;
 }
 
 
