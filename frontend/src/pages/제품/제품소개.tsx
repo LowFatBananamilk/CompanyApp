@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
+import './제품소개.css'
 
 
 export default function 제품소개() {
@@ -16,7 +17,7 @@ export default function 제품소개() {
 
   return (
     <>
-      <ButtonGroup className='button-group'>
+      <ButtonGroup className='button-group Buttons'>
         {radios.map((radio, idx) => (
           <ToggleButton
             key={idx}
@@ -36,7 +37,9 @@ export default function 제품소개() {
       {
         radioValue === '1' && (
           <>
-            <h3>1st Content</h3>
+            <div className='oneA'>
+              <h1>1st Content</h1>
+            </div>
           </>
         )
       }
