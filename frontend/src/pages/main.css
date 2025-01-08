@@ -10,10 +10,11 @@
     font-weight: 700;
     font-size: 70px;
     text-align: left;
-    border-top: 4px #12a89e72 solid;
+    border-top: 4px #12a89eaf solid;
     margin-left: 5%;
     margin-right: 30%;
     margin-top: 1%;
+    padding-top:1%;
 }
 
 .navCarouselA{
@@ -28,7 +29,7 @@
 }
 
 .itemcA1{
-    background-color: #d3d3d3;
+    background-color: #c8c8c8;
     align-items: center;
     align-content: center;
     height: 900px;
@@ -67,4 +68,5 @@
     width:75%;
     margin-left: 12.5%;
     margin-right:12.5%;
+    opacity: 80%;
 }

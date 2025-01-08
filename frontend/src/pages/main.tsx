@@ -10,8 +10,8 @@ export default function Main() {
       <Carousel.Item interval={30000} className='itemcA1'>
 
               <hr className='bar'></hr>
-              <h1 className='MainTitle'><span className='white'> &nbsp; &nbsp; Welcome to</span>
-              <span className='logocolor1'> HanjinPL</span></h1> 
+              <h1 className='MainTitle'><span className='logocolor2'> &nbsp; &nbsp; Welcome to</span>
+              <span className='logocolor3'> HanjinPL</span></h1> 
 
          
             <video className='video' autoPlay muted>
